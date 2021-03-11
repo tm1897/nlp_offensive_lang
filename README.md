@@ -118,6 +118,94 @@ Natural Language Processing - Offensive language exploratory analysis
 - Aggression/friendliness
 - https://github.com/ewulczyn/wiki-detox (dataset needs to be generated)
 
+### Hateful Symbols or Hateful People? Predictive Features for Hate speech Detection on Twitter
+[data directory](data/hateful_symbols_or_hateful_people_predictive_features_for_hate_speech_detection_on_twitter)
+
+- English
+- Twitter
+- 16,914
+- Ternary (Racist, Sexist, Neither)
+- paper: https://www.aclweb.org/anthology/S19-2.pdf
+- github: https://github.com/zeerakw/hatespeech
+- only Twitter IDs
+
+### Detecting Online Hate Speech Using Context Aware Models
+[data directory](data/detecting_online_hate_speech_using_context_aware_models)
+
+- English
+- FoxNews, posts
+- 1,528
+- Binary (Hate, Not)
+- paper: https://arxiv.org/pdf/1710.07395.pdf
+- github: https://github.com/sjtuprog/fox-news-comments
+- JSON file, the posts are there, so the dataset might be useful
+
+### Are You a Racist or Am I Seeing Things?
+[data directory](data/are_you_a_racist_or_am_i_seeing_things)
+
+- English
+- Twitter
+- 4,033
+- Multi-topic (Sexist, Racist, Neither, Both)
+- paper: https://www.aclweb.org/anthology/W16-5618.pdf
+- github: https://github.com/zeerakw/hatespeech
+- only Twitter IDs
+
+### When Does a Compliment Become Sexist?
+[data directory](data/when_does_a_compliment_become_sexist)
+
+- English
+- Twitter
+- 712
+- Hierarchy of Sexism (Benevolent sexism, Hostile sexism, None)
+- paper: https://www.aclweb.org/anthology/W17-2902.pdf
+- github: https://github.com/AkshitaJha/NLP_CSS_2017
+- only Twitter IDs
+
+### Overview of the Task on Automatic Misogyny Identification at IberEval 2018
+[data directory](data/overview_of_the_task_an_automatic_misogyny_identification_at_ibereval_2018)
+
+- English
+- Twitter
+- 3,977
+- Binary (misogyny / not), 5 categories (stereotype, dominance, derailing, sexual harassment, discredit), 
+  target of misogyny (active or passive)
+- paper: http://personales.upv.es/prosso/resources/FersiniEtAl_IberEval18.pdf
+- github: https://github.com/MIND-Lab/ami2018
+- filled out a form to get the dataset, waiting for e-mail reply on how to download the data
+
+### CONAN -COunter NArratives through Nichesourcing
+[data directory](data/conan)
+
+- English
+- Synthetic/Facebook posts
+- 1,288
+- Binary (Islamophobic / not), multi-topic (Culture, Economics, Crimes, Rapism, Terrorism, Women 
+  Oppression, History, Other/generic)
+- paper: https://www.aclweb.org/anthology/P19-1271.pdf
+- github: https://github.com/marcoguerini/CONAN
+- JSON file, well documented dataset
+  
+**File description*:*
+
+In the json file, each line starts with an ID, followed by a pair of hate speech/counter-narrative  
+and the metadata (hate speech type, hate speech sub-topic, counter-narrative type, and demographics).
+
+ID indicates language, hate speech type, hate speech sub-topic, unique hate speech count, 
+counter-narrative count, and augmentation type (if any).
+
+### Characterizing and Detecting Hateful Users on Twitter
+
+- English
+- Twitter
+- 4,972
+- Binary(hateful/not)
+- paper: https://arxiv.org/pdf/1803.08977.pdf
+- github: https://github.com/manoelhortaribeiro/HatefulUsersTwitter 
+- data (on Kaggle): https://www.kaggle.com/manoelribeiro/hateful-users-on-twitter?select=users.edges; didn't put in 
+  separate data folder, because too large, but I think it's again only Twitter IDs
+  
+
 ## Additional datasets:
 [data directory](data/personal_attacks_seen_at_scale_wulczyn)
 - https://www.kaggle.com/c/detecting-insults-in-social-commentary/data?select=impermium_verification_labels.csv
