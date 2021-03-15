@@ -205,6 +205,77 @@ counter-narrative count, and augmentation type (if any).
 - data (on Kaggle): https://www.kaggle.com/manoelribeiro/hateful-users-on-twitter?select=users.edges; didn't put in 
   separate data folder, because too large, but I think it's again only Twitter IDs
   
+  
+### A Benchmark Dataset for Learning to Intervene in Online Hate Speech
+[data_directory](data/gab_binary-jing-qian)
+
+- English
+- Platform Gab, posts
+- 33,776
+- Binary (hateful/not)
+- paper: https://arxiv.org/pdf/1909.04251.pdf
+- github: https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech
+
+
+### Multilingual and Multi-Aspect Hate Speech Analysis
+[data_directory](data/multilingual_and_multi-aspect_hate_speech_analysis)
+
+- English
+- Twitter
+- 5,647
+- Hostility, Directness, Target attribute and Target group
+- paper: https://arxiv.org/pdf/1908.11049.pdf
+- github: https://github.com/HKUST
+
+
+### Exploring Hate Speech Detection in Multimodal Publications
+
+- English
+- Twitter
+- 149,823
+- Six primary categories (No attacks to any community, Racist, Sexist, Homophobic, Religion based attack, Attack to other community)
+- paper: https://arxiv.org/pdf/1910.03814.pdf
+- Dataset on kaggle (6.1 GB): https://www.kaggle.com/victorcallejasf/multimodal-hate-speech
+
+
+### Predicting the Type and Target of Offensive Posts in Social Media
+
+- English
+- Twitter
+- 14,100
+- Branching structure of tasks: Binary (Offensive, Not), Within Offensive (Target, Not), Within Target (Individual, Group, Other)
+- paper: https://arxiv.org/pdf/1902.09666.pdf
+- The data is retrieved from social media and distributed in comma separated format. More information will be available soon.
+  
+  
+### hatEval, SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter
+
+- English
+- Twitter
+- 13,000
+- Branching structure of tasks: Binary (Hate, Not), Within Hate (Group, Individual), Within Hate (Agressive, Not)
+- paper: https://iris.unito.it/retrieve/handle/2318/1723924/512658/S19-2007.pdf
+- github: https://github.com/msang/hateval
+- In order to get the HatEval official dataset, please fill in the form on http://hatespeech.di.unito.it/hateval.html
+
+
+### Peer to Peer Hate: Hate Speech Instigators and Their Targets
+
+- English
+- Twitter
+- 27,330
+- Binary (Hate/Not), only for tweets which have both a Hate Instigator and Hate Target
+- paper: https://arxiv.org/pdf/1804.04649.pdf
+- data TweetIds on https://github.com/mayelsherif/hate_speech_icwsm18
+
+
+### Overview of the HASOC track at FIRE 2019: Hate Speech and Offensive Content Identification in Indo-European Languages
+
+- English
+- Twitter and Facebook
+- 7,005
+- Branching structure of tasks. A: Hate / Offensive or Neither, B: Hatespeech, Offensive, or Profane, C: Targeted or Untargeted
+
 
 ## Additional datasets:
 [data directory](data/personal_attacks_seen_at_scale_wulczyn)
