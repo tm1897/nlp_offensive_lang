@@ -1,7 +1,8 @@
 # nlp_offensive_lang
-Natural Language Processing - Offensive language exploratory analysis
+Natural Language Processing - Offensive language exploratory analysis. 
 
-
+## Evaluating the scripts
+After cloning this repository, pretrained models needs to be downloaded from [here](https://drive.google.com/drive/folders/1aVx98DSCBQp-yYR3kfggDmXiIGFrX7aX?usp=sharing "Pre-trained models"). Put them in a folder `models`.
 ## Data
 ### A Benchmark Dataset for Learning to Intervene in Online Hate Speech
 [data directory](data/reddit_binary-jing-qian)
