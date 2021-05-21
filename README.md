@@ -4,7 +4,9 @@ Offensive speech is often present on the Internet. Many times this is not desira
 ## Running the notebooks
 
 To run any notebook from this repository, you first have to create a conda environment from the [nlp_project_env.yml](nlp_project_env.yml)
- file. Most of the data required by notebooks are already in this repository. If not, there are instructions on where to get it, and how to set it up. For preprocessing the data, we prepared [CombiningDataset.ipynb](CombiningDataset.ipynb) notebook. Other notebooks are used for exploring the data and running the models. Pre-trained models need to be downloaded from [here](https://drive.google.com/drive/folders/1aVx98DSCBQp-yYR3kfggDmXiIGFrX7aX?usp=sharing "Pre-trained models"). Put them in a folder `models`.
+ file. Most of the data required by notebooks are already in this repository. If not, there are instructions on where to get it, and how to set it up inside the notebook. 
+ For preprocessing the data, we prepared [CombiningDataset.ipynb](CombiningDataset.ipynb) notebook. 
+ Other notebooks are used for exploring the data and running the models. Pre-trained models need to be downloaded from [here](https://drive.google.com/drive/folders/1aVx98DSCBQp-yYR3kfggDmXiIGFrX7aX?usp=sharing "Pre-trained models"), and in the notebook set the correct path to the downloaded model.
 
 
 The BERT embeddings notebook is available as a [Google Colab notebook](https://colab.research.google.com/drive/1B2cXLxr0KNy6RLQcntvaRkfAmkICVF2L?usp=sharing).
