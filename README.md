@@ -1,8 +1,15 @@
-# nlp_offensive_lang
-Natural Language Processing - Offensive language exploratory analysis. 
+# Natural Language Processing - Offensive language exploratory analysis. 
+Offensive speech is often present on the Internet. Many times this is not desirable on the pages, or it is forbidden, so we want to detect it automatically. This task has attracted a lot of attention recently, and as a result, many language processing techniques and algorithms have been developed. In this report, we present the capabilities of a number of traditional and state-of-the-art methods. Furthermore, we try to produce meaningful visualizations of the peculiarities of the different types of hate speech, as well as construct an offensive language schema based on the drawn conclusions from the analyses.
 
-## Evaluating the scripts
-After cloning this repository, models needs to be downloaded from [here](https://drive.google.com/drive/folders/1aVx98DSCBQp-yYR3kfggDmXiIGFrX7aX?usp=sharing "Pre-trained models"). Put them in a folder `models`.
+## Running the notebooks
+
+To run any notebook from this repository, you first have to create a conda environment from the [nlp_project_env.yml](nlp_project_env.yml)
+ file. Most of the data required by notebooks are already in this repository. If not, there are instructions on where to get it, and how to set it up. For preprocessing the data, we prepared [CombiningDataset.ipynb](CombiningDataset.ipynb) notebook. Other notebooks are used for exploring the data and running the models. Pre-trained models need to be downloaded from [here](https://drive.google.com/drive/folders/1aVx98DSCBQp-yYR3kfggDmXiIGFrX7aX?usp=sharing "Pre-trained models"). Put them in a folder `models`.
+
+
+The BERT embeddings notebook is available as a [Google Colab notebook](https://colab.research.google.com/drive/1B2cXLxr0KNy6RLQcntvaRkfAmkICVF2L?usp=sharing).
+
+
 ## Data
 ### A Benchmark Dataset for Learning to Intervene in Online Hate Speech
 [data directory](data/reddit_binary-jing-qian)
